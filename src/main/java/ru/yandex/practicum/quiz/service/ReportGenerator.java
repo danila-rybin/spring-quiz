@@ -11,7 +11,7 @@ import java.util.List;
 @Component
 public class ReportGenerator {
 
-    @Value("${spring-quiz.title}")
+    @Value("${spring-quiz.title:}")
     private String title;
 
     public void generate(QuizLog quizLog) {

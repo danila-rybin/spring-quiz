@@ -18,7 +18,7 @@ public class ConsoleUI {
     private final String quizTitle;
 
     @Autowired
-    public ConsoleUI(@Value("${spring-quiz.title}") String title, QuizConfig quizConfig) {
+    public ConsoleUI(@Value("${spring-quiz.title:\"Неназванный тест\"}") String title, QuizConfig quizConfig) {
         this.questions = quizConfig.getQuestions();
         this.input = new Scanner(System.in);
         this.quizLogger = new QuizLog(questions.size());
