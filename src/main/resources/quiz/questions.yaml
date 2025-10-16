@@ -1,0 +1,34 @@
+spring-quiz:
+  questions-settings:
+    default-attempts: 1
+    questions:
+      - text: "Что такое Spring Framework?"
+        options:
+          - "Фреймворк для разработки Java-приложений"
+          - "Библиотека для работы с базами данных"
+          - "Язык программирования"
+        correctAnswerNumber: 1
+      - text: "Что такое Inversion of Control (IoC) в Spring?"
+        options:
+          - "Input-output Control"
+          - "Input-output Configuration"
+          - "Inversion of Control"
+          - "Integration of Components"
+        correctAnswerNumber: 3
+        attempts: 3
+      - text: "Что такое внешняя конфигурация в Spring Boot?"
+        options:
+          - "Конфигурация внешних библиотек"
+          - "Конфигурация, которая не является частью исполняемого jar-файла"
+          - "Конфигурация через веб-интерфейс"
+        correctAnswerNumber: 2
+        attempts: 2
+      - text: "Что такое application.properties в Spring Boot?"
+        options:
+          - "Файл с логами приложения"
+          - "Файл с конфигурацией Spring-приложения"
+          - "Файл с макетами интерфейсов приложения"
+        correctAnswerNumber: 2
+      - text: "Как можно указать настройки внешней конфигурации в Spring Boot приложении?"
+        options: [ "Через Интернет", "Через файлы .yaml и .properties", "Через сайт spring.io" ]
+        correctAnswerNumber: 2

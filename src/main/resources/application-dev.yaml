@@ -1,0 +1,8 @@
+spring:
+  main:
+    log-startup-info: true # выводим служебную информацию
+    banner-mode: off       # не выводим баннер
+
+spring-quiz:
+  report:
+    mode: "concise"  # краткий режим отчёта
