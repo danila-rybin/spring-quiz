@@ -2,7 +2,7 @@ spring:
   config:
     import: "classpath:quiz/questions.yaml"
   main:
-    log-startup-info: false
+    log-startup-info: true
     output.ansi.enabled: ALWAYS
 
 spring-quiz:
